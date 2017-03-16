@@ -1,0 +1,132 @@
+body, html {
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  margin-top: 70px;
+  background-color: #7e7e7e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #42433F;
+  font-weight: bold;
+}
+
+.navbar-inverse {
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 0;
+  background: #131313;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #A3B6C5;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background: #42433F;
+  color: #000000;
+}
+
+.navbar-brand {
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar-brand > img{
+  margin-top: -5px;
+  height: 64px;
+}
+
+.jumbotron {
+  padding-bottom: 5%;
+  margin-bottom: 0px;
+	background: #FC4000;
+	color: #FFF;
+	text-align: center;
+}
+
+.jumbotron p {
+	color: #42433F;
+}
+
+.glyphicon-large {
+	font-size: 100px;
+  color: #E23C03;  
+}
+
+.selector {
+  text-align: center;
+  margin: 70px 0px 70px 0px;
+  
+}
+
+.selector p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.invert {
+  color: #FFF;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #FC4000;
+  border-color: #FC4000;
+}
+
+.list-group-item:hover {
+  background-color: #FC4000;
+  border-color: #FC4000;
+}
+
+.list-group-item:hover > h3 {
+  color: #FFF;
+  background-color: #FC4000;
+  border-color: #FC4000;
+}
+
+.list-group-item {
+  display: inline-block; 
+  border-radius: 4px 4px 4px 4px;
+}
+
+input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+input[type="checkbox"] {
+	float: left;
+}
+
+.login {
+  text-align: center;
+  margin: 70px 0px 70px 0px;
+  padding: 20px 40px 20px 40px;
+  background-color: #E23C03; 
+  border-radius: 40px 40px 40px 40px;
+}
+
+.thumbnail {
+  margin-right: 10px;
+  display: inline;
+  background-color:#7e7e7e;
+  border-color: transparent;
+}
+
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}

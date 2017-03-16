@@ -1,0 +1,66 @@
+{% extends "base.html" %} {% block title %}Leaderboards{% endblock %} {% block body %}
+<div class="jumbotron">
+  <div class="container">
+    <span class="glyphicon-large"><img src="../static/img/leaderboard.png" /></span>
+    <h1>Leaderboards</h1>
+    <p></p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="col-md-12">
+        <section class="selector">
+          <h3>Leaders of the week</h3>
+          <img src="../static/img/2nd.png" class="thumbnail" style="width: 100px; height: 100px;" />
+          <img src="../static/img/1st.png" class="thumbnail" style="width: 150px; height: 150px;" />
+          <img src="../static/img/3rd.png" class="thumbnail" style="width: 80px; height: 80px;" />
+        </section>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="col-sm-12">
+        <section class="selector">
+          <h3>This week's prize</h3>
+          <h1 class="invert">500,000 points!</h1>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6" style="background-color: rgba(255,255,255,0.2); ">
+        <h3>Name, Surname</h3>
+        <div class="col-md-12">
+          <h4>Marks Gniteckis</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>Marks Gniteckis</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>Marks Gniteckis</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>Marks Gniteckis</h4>
+        </div>
+      </div>
+      <div class="col-md-6" style="background-color: rgba(255,255,255,0.2); ">
+        <h3>Score</h3>
+        <div class="col-md-12">
+          <h4>120 000</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>90 000</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>50 000</h4>
+        </div>
+        <div class="col-md-12">
+          <h4>43 000</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="selector"></section>
+    {% endblock %}

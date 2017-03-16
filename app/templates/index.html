@@ -1,0 +1,76 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block header %} {% endblock %} {% block body %}
+<!-- Welcome! -->
+<div class="jumbotron">
+	<div class="container">
+		<h1>Welcome to FitSocial!</h1>
+		<p>This is the homepage to FitSocial, the new way to connect to friends and people who love fitness and track their progress
+			using fitness trackers in a new, cohesive environment!</p>
+	</div>
+</div>
+<!-- </Welcome> -->
+<!-- Progress! -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<section class="selector">
+				<span class="glyphicon glyphicon-stats glyphicon-large" aria-hidden="true"></span>
+				<h3>Progress!</h3>
+				<p>Track your progress and more under "My Profile" once you are signed in. Compare your statistics to others in "Leaderboards"!</p>
+			</section>
+		</div>
+		<div class="col-md-7">
+			<section class="selector">
+			<img src="../static/img/char.png"/>
+			</section>
+		</div>
+	</div>
+</div>
+<!-- </Progress!> -->
+<!-- Challenge! -->
+<div class="container-fluid" style="background-image: url('../static/img/athlete.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+			</div>
+			<div class="col-md-5">
+				<section class="selector invert">
+					<span class="glyphicon glyphicon-flash glyphicon-large" aria-hidden="true"></span>
+					<h3 class="invert">Challenge!</h3>
+					<p>Ascend the ranks by completing our challenges under the "Challenges" page to be displayed within your unique profile!</p>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- </Challenge!> -->
+<!-- Sign Up! -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<section class="selector">
+				<span class="glyphicon glyphicon-log-in glyphicon-large"></span>
+				<h3>Join us now!</h3>
+				<p>And start climbing ranks and living healthier lifestyle! Simply use the form to sign up with your tracker and start working
+					out!
+				</p>
+			</section>
+		</div>
+		<div class="col-md-2"></div>
+			<div class="col-md-5 login">
+				<ul class="list-group">
+					<li class="list-group-item active">
+						<h3 class="invert">Sign up</h3>
+					</li>
+					<li class="list-group-item">
+						<h3>Log In</h3>
+					</li>
+				</ul>
+				<input type="text" class="form-control" name="username" placeholder="Email Address" />
+				<input type="password" class="form-control" name="password" placeholder="Password" />
+				<input type="checkbox" value="remember-me" name="rememberMe" />
+				<p style="margin: 0px 300px 0px 0px;">Remember Me</p>
+			</div>
+	</div>
+</div>
+<!-- </Sign Up!> -->
+{% endblock %}
