@@ -1,5 +1,68 @@
-{% extends "base.html" %}
-{% block title %}About{% endblock %}
-{% block body %}
-
-{% endblock %}
+{% extends "base.html" %} {% block title %}About{% endblock %} {% block body %}
+<div class="jumbotron">
+  <div class="container">
+    <span class="glyphicon-large"><img src="../static/img/about.png" /></span>
+    <h1>About</h1>
+    <p></p>
+  </div>
+</div>
+<section class="selector"></section>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <h3>Our Mission</h3>
+      <section class="selector">
+        <p>We are surrounded by many methods of help to keep track of our fitness and health goals. One powerful tool people
+          use for health and fitness tracking are Fitness Bands, courtesy of various manufacturers such as Xiaomi, FitBit
+          and many more. Unfortunately, we can not compare our fitness and health statistics captured across different brands
+          unless we directly communicate with others, and looking at various graphs and complicated data can be a drag! Therefore,
+          what better way to implement a community platform that combines the data generated using these fitness trackers
+          and allow users to compare their statistics with each other in a no-fuss way.
+        </p>
+      </section>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-5">
+      <h3>Our Goals</h3>
+      <section class="selector">
+        <p>The goal is simple. As explained above, we hope this new platform of fitness tracking and data collection combines
+          your already existing data from your tracker which can then be used to compare to other users across different
+          brands. In addition to this, data will also be formatted into a leaderboard based on a score algorithm we apply
+          to every user in various categories (Steps taken, Calories burnt etc.) and compete for badges! We hope this platform
+          offers users the easiest and most effective way to share their fitness achievements with others without the existing
+          restrictions!
+        </p>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <center>
+        <h3>The Team</h3>
+      </center>
+      <section class="selector">
+        <img src="../static/img/marks.png" />
+        <img src="../static/img/euan.png" />
+        <img src="../static/img/kristiqn.png" />
+        <img src="../static/img/mason.png" /><br><br>
+        <img src="../static/img/leon.png" />
+        <img src="../static/img/marks.png" />
+        <img src="../static/img/marks.png" />
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <blockquote>
+        <p>We hope you enjoy using this platform and get the most out of being united with many others across different fitness
+        trackers!</p>
+        <footer>Team <cite title="brand">fitSocial</cite></footer>
+      </blockquote>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+  <section class="selector">
+  </section>
+  {% endblock %}
